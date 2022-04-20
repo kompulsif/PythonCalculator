@@ -38,7 +38,7 @@ def writer(b):
     cur_i = operation.index(tk.INSERT)
 
     if (b["text"] == "π"):
-        operation.insert(cur_i, "3.1415926535897932384626433832795")
+        operation.insert(cur_i, "π")
 
     else:
         operation.insert(cur_i, b["text"])
